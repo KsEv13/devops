@@ -37,8 +37,6 @@ The time is updated after reloading the page.
 ### Built With
 
 * [![Flask][Flask.com]][Flask-url]
-* [![Flask][Flask.com]][Flask-url]
-* [![Flask][Flask.com]][Flask-url]
 
 <!-- GETTING STARTED -->
 ## Getting Started
