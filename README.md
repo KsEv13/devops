@@ -94,7 +94,7 @@ interpreter:
     python3 -m venv .venv
     source .venv/bin/activate
     # Windows
-    py -3 -m venv .venv
+    python3 -m venv .venv
     .venv\scripts\activate
     ```
 
@@ -157,14 +157,14 @@ You know the environment is activated when the command prompt shows
 This project can be used to monitor the current time of the Moscow time zone.
 The time is updated after each page-reloading.
 It is achieved by ```date=datetime.now(timezone('Europe/Moscow'))```.  
-![App_Screen](images/demo_img.png)
+
+![App_Screen](images/demo_img.png)  
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
 If you have any comments which would make this project better,
 please fork the repo and create a pull request.
-You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
