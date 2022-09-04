@@ -28,15 +28,19 @@ The goal of the project is to get acquainted with DevOps practices by creating a
 project using Python. Also, the best
 practices for the Python Web app creation
 should be researched and applied. For instance,
-linters for the code and the Markup, as well as Prettier as a code formatter.
+linters for the code and the Markup, and code formatters.
 I have decided to make a minimalistic website
 with a simple confetti animation.
-The time is updated after reloading the page.
+The time is updated after reloading the page.  
+I have used **Flask** for building the app and
+**pytz** for getting the current Moscow time.
 </br>
 
 ### Built With
 
 * [![Flask][Flask.com]][Flask-url]
+
+* [![Pytz][pytz.com]][pytz-url]
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -185,3 +189,6 @@ Project Link: [https://github.com/KsEv13/devops.git](https://github.com/KsEv13/d
 
 [Flask.com]: https://img.shields.io/badge/%20-Flask%20-blue
 [Flask-url]: https://flask.palletsprojects.com/en/latest/
+
+[pytz.com]: https://img.shields.io/badge/%20-pytz-orange
+[pytz-url]: https://pypi.org/project/pytz/
